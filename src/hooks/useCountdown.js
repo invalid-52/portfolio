@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
-// Target: 23 August 2026 at 06:00 AM (UTC+5:30 → stored as local)
-const TARGET = new Date('2026-08-23T00:30:00Z') // 06:00 AM IST = 00:30 UTC
+// Target: 7 December 2026
+const TARGET = new Date('2026-12-07T00:00:00Z')
 
 function getRemaining() {
   const now = new Date()
